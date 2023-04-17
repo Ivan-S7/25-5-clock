@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App{
+    background-color: #1b1b32;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .app-container{
+    background-color: aqua;
+    text-align: center;
+    height: 70%;
+    
+  }
+  
+  .title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1b1b32;
+  }
+  
+  /* -----------------------------------------------Options------------------------------------------------- */
+  
+  .options{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .break-setings, .session-setings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fa-caret-up, .fa-caret-down{
+    font-size: 50px;
+    color: rgb(72, 72, 182);
+  }
+  
+  #break-length, #session-length{
+    margin: 0 15px;
+  }
+  
+  /* ------------------------------------------Timer-------------------------------------------------- */
+  
+  .timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: blueviolet;
+    width: 25%;
+    height: 35%;
+    border-radius: 50px;
+    border: solid 4px black;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* --------------------------------start-reset-container-------------------------------------------------- */
+  
+  .start-reset-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    width: 15%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+  
+  #start_stop{
+    margin-right: 15%;
+  }
